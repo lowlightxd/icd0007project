@@ -1,0 +1,164 @@
+* {
+    font-family: "Verdana", sans-serif;
+    color: #124E78;
+    box-sizing: border-box;
+    background-color: #fbfff7;
+}
+
+/* Main Layout */
+main {
+    width: 40rem;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    width: 40rem;
+    text-align: center;
+    margin: auto auto auto;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #124E78;
+    border-top: 1px solid #124E78;
+}
+
+/* Navigation */
+nav {
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4682A9;
+    padding: 0 0.5rem;
+}
+
+/* Employee and Task Containers */
+#employee-data, #task-data {
+    padding: 1rem;
+    border: 1px solid #91C8E4;
+    border-radius: 8px;
+    overflow-y: auto;
+    max-height: 30rem;
+}
+
+#task-data {
+    width: 100%;
+}
+
+/* Entry Styling */
+#employee-entry, #task-entry {
+    border: 1px solid #96caea;
+    border-radius: 5px;
+    height: 5rem;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Image Styling */
+#employee-entry img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#task-entry {
+    display: inline-grid;
+    margin-bottom: 0.5rem;
+    height: 5rem;
+}
+
+header {
+    border-bottom: 1px solid #96caea;
+    margin-bottom: 1rem;
+}
+
+#formDiv {
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    width: 35.5rem;
+    align-content: center;
+    form {
+        width:18.6rem;
+        margin: auto auto auto;
+    }
+}
+
+.submit {
+    float: right;
+}
+
+select {
+    gap: 1rem;
+    width: 18.6rem;
+    height: 1.3rem;
+}
+
+option {
+    visibility: visible;
+    color: #124E78;
+}
+
+textarea {
+    width: 18.6rem;
+}
+
+#editButton {
+    width: 5rem;
+    display: inline;
+    float: right;
+    vertical-align: top;
+    text-align: right;
+}
+
+#error-block {
+    width: 35rem;
+    align-self: center;
+    margin: auto auto auto;
+    border: 1px solid #570404;
+    background-color: #ffa1a1;
+    height: 2rem;
+    color: darkred;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 0.5rem;
+    display: grid;
+}
+
+#message-block {
+    width: 35rem;
+    align-self: center;
+    margin: auto auto auto;
+    border: 1px solid #003f00;
+    background-color: lightgreen;
+    height: 2rem;
+    color: darkgreen;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 0.5rem;
+    display: grid;
+}
+
+#submitDelete {
+    background-color: #ffa1a1;
+    border: 2px solid #570404;
+    margin-left: 1rem
+}
+
+#assignedTo {
+    display: block;
+    float: none;
+    margin-bottom: 0.5rem;
+}

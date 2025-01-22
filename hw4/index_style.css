@@ -1,0 +1,117 @@
+* {
+    font-family: "Verdana", sans-serif;
+    color: #124E78;
+    box-sizing: border-box;
+    background-color: #fbfff7;
+}
+
+/* Main Layout */
+main {
+    width: 40rem;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    width: 40rem;
+    text-align: center;
+    margin: auto auto auto;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #124E78;
+    border-top: 1px solid #124E78;
+}
+
+/* Navigation */
+nav {
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4682A9;
+    padding: 0 0.5rem;
+}
+
+/* Employee and Task Containers */
+#employee-data, #task-data {
+    padding: 1rem;
+    border: 1px solid #91C8E4;
+    border-radius: 8px;
+    overflow-y: auto;
+    max-height: 30rem;
+}
+
+#employee-data {
+    width: 40%;
+}
+
+#task-data {
+    width: 60%;
+}
+
+/* Entry Styling */
+#employee-entry, #task-entry {
+    border: 1px solid #96caea;
+    border-radius: 5px;
+    height: 8rem;
+    display: flow-root;
+    img {
+        margin-right: 0.5rem;
+    }
+    align-items: center;
+    padding: 0.25rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+/* Image Styling */
+#employee-entry img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: -5rem;
+}
+
+#task-entry {
+    display: grid;
+}
+
+header {
+    border-bottom: 1px solid #96caea;
+    margin-bottom: 1rem;
+}
+
+#taskNumber {
+    height: 1.75rem;
+    width: 1.75rem;
+    background-color: #e7e7e7;
+    align-content: center;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px;
+    border-radius: 15px;
+}
+
+#role {
+    display: grid;
+    align-self: end;
+    horiz-align: left;
+    float: left;
+}
+
+
+#employee-entry div {
+    vert-align: top;
+    height: 1.5rem;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+}
